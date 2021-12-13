@@ -61,4 +61,19 @@ git log --graph (mostra o histórico semelhante a uma interface gráfica, onde f
 
 
 ### Reversão de commits
+#### Reset
+git reset hash sha1
 
+git reset HEAD~2(volta nas últimas 2 HEAD)
+
+git reset --soft HEAD~2(tira todos os arquivos do commit e volta para o index, para staged)
+
+git reset --mixed (volta os arquivos para o estado anterior)
+
+git reset --hard HEAD~2 (apaga os arquivos do commit escolhido)
+
+
+
+##### Revert (faz um novo commit revertendo o commit selecionado)
+git revert hash sha1
+git revert HEAD~2(volta nas últimas 2 HEAD)
