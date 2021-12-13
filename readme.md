@@ -38,7 +38,9 @@ git branch -m "novo nome" (renomeia a branche em que está)
 
 git branch -m "nome antigo" "novo nome" (renomeia a branch antiga informada, independente da branch que estiver)
 
-git branch -d "nome da branch" (delete a branch escolhida)
+git branch -d "nome da branch" (deleta a branch escolhida)
+
+## Manipulando arquivos para Stash
 
 git stash save "comentario" (salva tudo que está no staging area ou index )
 
