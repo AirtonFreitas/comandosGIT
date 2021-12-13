@@ -42,3 +42,6 @@ git branch -d "nome da branch" (delete a branch escolhida)
 
 git stash save "comentario" (salva tudo que está no staging area ou index )
 
+git stash pop "número do array" ("extrai" os arquivos do index ou stash para sua branch para ser commitado)
+
+git stash clear (limpa os arquivos em stash, "index")
