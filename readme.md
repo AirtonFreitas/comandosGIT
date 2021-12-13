@@ -47,3 +47,11 @@ git stash save "comentario" (salva tudo que está no staging area ou index )
 git stash pop "número do array" ("extrai" os arquivos do index ou stash para sua branch para ser commitado)
 
 git stash clear (limpa os arquivos em stash, "index")
+
+
+
+### Logs do GIT
+git log (mostra o histórico completo do repositório)
+git log "pasta" (mostra o histórico da pasta específica)
+git log --oneline (mostra o histórico resumida, em apenas uma linha por evento)
+git log --graph (mostra o histórico semelhante a uma interface gráfica, onde fica mais intuitivo para visualizar)
