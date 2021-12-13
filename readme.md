@@ -77,3 +77,15 @@ git reset --hard HEAD~2 (apaga os arquivos do commit escolhido)
 #### Revert (faz um novo commit revertendo o commit selecionado)
 git revert hash sha1
 git revert HEAD~2(volta nas últimas 2 HEAD)
+
+
+
+
+
+### Semantic Versioning 3.2.7
+
+3 - Major
+2 - Minor
+7 - Patch
+
+https://www.conventionalcommits.org/en/v1.0.0/
