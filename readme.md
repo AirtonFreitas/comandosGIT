@@ -52,6 +52,9 @@ git stash clear (limpa os arquivos em stash, "index")
 
 ### Logs do GIT
 git log (mostra o histórico completo do repositório)
+
 git log "pasta" (mostra o histórico da pasta específica)
+
 git log --oneline (mostra o histórico resumida, em apenas uma linha por evento)
-git log --graph (mostra o histórico semelhante a uma interface gráfica, onde fica mais intuitivo para visualizar)
+
+git log --graph (mostra o histórico semelhante a uma interface gráfica, onde ficamais intuitivo para visualizar)
