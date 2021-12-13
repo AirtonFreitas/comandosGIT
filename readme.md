@@ -1,7 +1,7 @@
 # Comandos GIT
 ### Abaixo alguns comandos básicos de GIT
 
-CURSO 1
+### CURSO 1
 git clone linkdoGithub (faz um clone local do repositório)
 
 git init - Iniciar Repositório na pasta local. (cria os arquivos .git iniciando assim o controle do repositório local)
@@ -22,7 +22,7 @@ git push origin master(master escolhida para enviar) - Envia o Commit para o git
 
 
 
-CURSO 2
+### CURSO 2
 
 git remote -v (Exibe os repositórios remotos vinculados.)
 
@@ -38,4 +38,7 @@ git branch -m "novo nome" (renomeia a branche em que está)
 
 git branch -m "nome antigo" "novo nome" (renomeia a branch antiga informada, independente da branch que estiver)
 
+git branch -d "nome da branch" (delete a branch escolhida)
+
+git stash save "comentario" (salva tudo que está no staging area ou index )
 
