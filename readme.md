@@ -74,6 +74,6 @@ git reset --hard HEAD~2 (apaga os arquivos do commit escolhido)
 
 
 
-##### Revert (faz um novo commit revertendo o commit selecionado)
+#### Revert (faz um novo commit revertendo o commit selecionado)
 git revert hash sha1
 git revert HEAD~2(volta nas últimas 2 HEAD)
