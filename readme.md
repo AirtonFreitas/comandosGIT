@@ -58,3 +58,7 @@ git log "pasta" (mostra o histórico da pasta específica)
 git log --oneline (mostra o histórico resumida, em apenas uma linha por evento)
 
 git log --graph (mostra o histórico semelhante a uma interface gráfica, onde ficamais intuitivo para visualizar)
+
+
+### Reversão de commits
+
